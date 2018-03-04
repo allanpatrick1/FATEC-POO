@@ -1,0 +1,42 @@
+<style>
+            
+            body{background: linear-gradient(blue,white);height:800px;
+            }
+           #menu ul {
+			padding-right: 20px;
+			margin:0px;			
+			width: 100%;
+                       
+			background-color:#EDEDED;
+			list-style:none;
+			font:80% Tahoma;
+           }
+           #menu ul li a {
+			background-color:#EDEDED;
+			color: #333;
+			text-decoration: none;
+			border-bottom:3px solid #EDEDED;
+			padding: 10px 100px;
+			float:left;
+		}
+                #menu ul li a:hover {
+			background-color:#D6D6D6;
+			color: #6D6D6D;
+			border-bottom:3px solid #EA0000;
+		}
+ 
+
+        </style>
+    </head>
+    <body>
+        <div id="menu">
+		<ul>
+			<li><a href="">Home</a></li>
+			<li><a href="">Institucional</a></li>
+			<li><a href="">Noticias</a></li>
+			<li><a href="">Serviços</a></li>
+                        <li><a href="">Contato</a></li>
+                        
+			
+		</ul>
+	</div>
