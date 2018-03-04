@@ -4,6 +4,9 @@
     <title>FATEC Store - HOME</title>
     <meta charset="utf-8">
     
+    <!-- Carregando Javascript do button -->
+    <script type="text/javascript" src="javascript/rolebutton.js"></script>
+    
     <!-- Layout em dispositivos mobile -->
     <meta name="viewport" content="width=device-width, initial-scale=1">
     
@@ -15,9 +18,9 @@
     <!-- Background, menu e carousel -->
     <style>
         
-        body{background: linear-gradient(blue,white);height:800px;
+        body{background: linear-gradient(blue,white);height:810px;
             }
-           #menu ul {
+                #menu ul {
 			padding-right: 25px;
 			margin:0px;			
 			width: 100%;
@@ -25,8 +28,8 @@
 			background-color:#EDEDED;
 			list-style:none;
 			font:100% Tahoma;
-           }
-           #menu ul li a {
+                }
+                #menu ul li a {
 			background-color:#EDEDED;
 			color: #333;
 			text-decoration: none;
@@ -37,7 +40,7 @@
                 #menu ul li a:hover {
 			background-color:#D6D6D6;
 			color: #6D6D6D;
-			border-bottom:5px solid black;
+			border-bottom:3px solid black;
 		}
         
         .carousel-inner img {
@@ -50,6 +53,7 @@
 </head>
 
 <body>
+       
     <!-- Menus de interação -->
         <center>
         <div id="menu">
@@ -63,7 +67,7 @@
         </div>
         </center>
     
-    <br><br><br>
+    <br><br>
     
     <!-- Aplicando o carousel -->
     <div id="myCarousel" class="carousel slide" data-ride="carousel">
@@ -72,15 +76,15 @@
         <center>
             <div class="carousel-inner">
                 <div class="item active">
-                    <img src="imagens/home1.jpg" alt="Masc">
+                    <img src="imagens/slide1.jpg" alt="Masc">
                 </div>
 
                 <div class="item">
-                    <img src="imagens/home2.jpg" alt="Offer">
+                    <img src="imagens/slide2.jpg" alt="Fem">
                 </div>
 
                 <div class="item">
-                    <img src="#" alt="#">
+                    <img src="imagens/slide3.jpg" alt="Offer">
                 </div>
             </div>
     
@@ -98,33 +102,33 @@
         </center>
     </div>
     
+    <!-- Apresentação da página -->
     <div class="container text-center">    
-        <h3>HOME</h3><br>
+        <h3>FATEC Store - A Moda Brasileira</h3><br>
         <div class="row">
             <div class="col-sm-4">
-                <img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Image">
-                    <p>Current Project</p>
+                <img src="imagens/home1.jpg" class="img-responsive" style="width:100%" alt="Tamanho">
             </div>
             
             <div class="col-sm-4"> 
-                <img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Image">
-                    <p>Project 2</p>    
+                <img src="imagens/home2.jpg" class="img-responsive" style="width:100%" alt="Pag">   
             </div>
             
+            <!-- Uma <div> de texto -->
             <div class="col-sm-4">
                 <div class="well">
-                    <p>Some text..</p>
-                </div>
-                <div class="well">
-                    <p>Some text..</p>
-                </div>
+                    <p>Trabalhamos com Mercado Envios<br>
+                        (entrega até 5x mais rápida)<br><br>
+                        Calcule automaticamente o frete clicando abaixo: <br><br>
+                        <a href="http://www2.correios.com.br/sistemas/precosPrazos/" target="_blank" class="btn btn-info" role="button">Calcular Frete</a>                       
+                </div>  
             </div>
         </div>
-    </div>
     
     <!-- Rodapé -->
-    <footer class="container-fluid text-center">
-        <p>Footer Text</p>
+    <footer class="container-fluid text-center"><br>
+        <!-- Botão top -->
+        <button onclick="scrollToTop(1000);" class="btn btn-info">Voltar ao Topo</button>
     </footer>
 
 </body>
