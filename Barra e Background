@@ -1,15 +1,15 @@
 <style>
-            
-            body{background: linear-gradient(blue,white);height:800px;
+        
+        body{background: linear-gradient(blue,white);height:800px;
             }
            #menu ul {
-			padding-right: 20px;
+			padding-right: 25px;
 			margin:0px;			
 			width: 100%;
                        
 			background-color:#EDEDED;
 			list-style:none;
-			font:80% Tahoma;
+			font:100% Tahoma;
            }
            #menu ul li a {
 			background-color:#EDEDED;
@@ -22,11 +22,9 @@
                 #menu ul li a:hover {
 			background-color:#D6D6D6;
 			color: #6D6D6D;
-			border-bottom:3px solid #EA0000;
+			border-bottom:5px solid black;
 		}
- 
-
-        </style>
+</style>
     </head>
     <body>
         <div id="menu">
