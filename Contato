@@ -1,20 +1,20 @@
 <html>
     <head>
-        <title>FATEC Store - Contatos</title>
+        <title>Contatos</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <style>
             
-            body{background: linear-gradient(blue,white);height:1020px;
+            body{background: linear-gradient(blue,white);height:100%;
             }
            #menu ul {
-			padding-right: 25px;
+			padding-right: 20px;
 			margin:0px;			
 			width: 100%;
                        
 			background-color:#EDEDED;
 			list-style:none;
-			font:100% Tahoma;
+			font:80% Tahoma;
            }
            #menu ul li a {
 			background-color:#EDEDED;
@@ -27,7 +27,7 @@
                 #menu ul li a:hover {
 			background-color:#D6D6D6;
 			color: #6D6D6D;
-			border-bottom:3px solid black;
+			border-bottom:3px solid #EA0000;
 		}
                 .social:hover {
      -webkit-transform: scale(1.1);
@@ -63,11 +63,11 @@
     <body>
         <div id="menu">
 		<ul>
-			<li><a href="index.html">Home</a></li>
-			<li><a href="instint.html">Institucional</a></li>
-			<li><a href="noticias.html">Noticias</a></li>
-			<li><a href="servicos.html">Serviços</a></li>
-                        <li><a href="contato.html">Contato</a></li>
+			<li><a href="">Home</a></li>
+			<li><a href="">Institucional</a></li>
+			<li><a href="">Noticias</a></li>
+			<li><a href="">Serviços</a></li>
+                        <li><a href="">Contato</a></li>
                 </ul>
             <br>
             <div id="titulo"><h1>FALE CONOSCO</h1><hr><br>
